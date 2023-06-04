@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap classes</title>
+    <!-- css links   -->
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         <link rel="stylesheet" href="css/style.css">
+         <link rel="stylesheet" href="css/media.css">
+ </head>
+ <body>
+ <section>
+  <div class="container text-center">
+    <div class="row">
+
+      <div class="col-sm-6">
+        <div class="box">col-sm-6</div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="box">col-sm-4</div>
+      </div>
+      
+    </div>
+    <div class="row">
+   
+        <div class="col-sm">
+          <div class="box">col-sm</div>
+        </div>
+
+        <div class="col-sm">
+          <div class="box">col-sm</div>
+        </div>
+
+        <div class="col-sm">
+          <div class="box">col-sm</div>
+        </div>
+   
+    </div>
+  </div>
+ </section>
+
+ <section>
+  <div class="container text-center">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+
+      <div class="col-md-8">
+        <div class="box">.col-md-8</div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="box">.col-6 .col-md-4</div>
+      </div>
+
+    </div>
+  
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row">
+
+      <div class="col-6 col-md-4">
+        <div class="box">.col-6 .col-md-4</div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="box">.col-6 .col-md-4</div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="box">.col-6 .col-md-4</div>
+      </div>
+
+    </div>
+
+      <!-- Columns are always 50% wide, on mobile and desktop -->
+    <div class="row">
+
+      <div class="col-6">
+        <div class="box">.col-6</div>
+      </div>
+
+      <div class="col-6">
+        <div class="box">.col-6</div>
+      </div>
+    </div>
+
+    </section>
+    
+    <section>
+      <div class="container px-4 text-center">
+        <div class="row gx-5">
+          <div class="col">
+            <div class="p-3">
+              <div class="box">Custom column padding</div>
+            </div>
+           </div>
+           <div class="col">
+            <div class="p-3">
+              <div class="box">Custom column padding</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section>
+    <div class="container text-center">
+      <div class="row g-2">
+
+        <div class="col-6">
+          
+          <div class="box">
+            <div class="p-3">Custom column padding</div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="box">
+            <div class="p-3">Custom column padding</div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="box">
+            <div class="p-3">Custom column padding</div>
+          </div>
+        </div>
+
+  
+
+        <div class="col-6">
+          <div class="box">
+           <div class="p-3">Custom column padding</div>
+          </div>
+         </div>
+
+      </div>
+    </div>
+     </section>
+
+<section>
+  <div>
+    <form>
+      <div class="mb-3">
+        <label for="email1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email1" name="email" required>
+      </div>
+  
+      <div class="mb-3">
+        <label for="password1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password1" name="password" required>
+      </div>
+  
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input " id="check1" name="check1">
+        <label class="form-check-label" for="check1">Check me out</label>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+  
+      <div class="mb-3">
+        <label for="controlinput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="formcontrolinput1">
+      </div>
+  
+      <div class="mb-3">
+        <label for="formcontroltextarea1" class="form-label">Textarea</label>
+        <textarea class="form-control" id="formcontroltextarea1" rows="3"></textarea>
+      </div>
+  
+      
+  
+      <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <label for="inputpassword5" class="col-form-label">Password</label>
+        </div>
+        <div class="col-auto">
+          <input type="password" id="inputpassword5" class="form-control" aria-labelledby="passwordhelpinline">
+        </div>
+        <div class="col-auto">
+          <span id="passwordhelpinline" class="form-text">
+            Must be 8-20 characters long.
+          </span>
+        </div>
+      </div>
+  
+  </form> 
+  </div>
+</section>
+
+<section>
+  <select class="form-select" aria-label="default select example">
+    <option selected>Open this select menu</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+
+  <div class="mb-3">
+  <label for="formfile" class="form-label">Default file input example</label>
+  <input class="form-control" type="file" id="formfile">
+</div>
+<div class="mb-3">
+  <label for="formfilemultiple" class="form-label">Multiple files input example</label>
+  <input class="form-control" type="file" id="formfilemultiple" multiple>
+</div>
+<div class="mb-3">
+  <label for="formfiledisabled" class="form-label">Disabled file input example</label>
+  <input class="form-control" type="file" id="formfiledisabled" disabled>
+</div>
+<div class="mb-3">
+  <label for="formfilesm" class="form-label">Small file input example</label>
+  <input class="form-control form-control-sm" id="formfilesm" type="file">
+</div>
+<div>
+  <label for="formfilelg" class="form-label">Large file input example</label>
+  <input class="form-control form-control-lg" id="formfilelg" type="file">
+</div>
+
+<label for="colorinput" class="form-label">Color picker</label>
+<input type="color" class="form-control form-control-color" id="colorinput" value="#563d7c" title="Choose your color">
+</section>
+
+<section>
+<div>
+  <form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputemail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputemail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputpassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputpassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputaddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputaddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputaddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputaddress2" placeholder="apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputcity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputcity">
+  </div> 
+  <div class="col-md-4">
+    <label for="inputstate" class="form-label">State</label>
+    <select id="inputstate" class="form-select">
+      <option selected>Choose...</option>
+      <option>chose...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputzip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputzip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridcheck">
+      <label class="form-check-label" for="gridcheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
+</div>
+</section>
+<section>
+  <form class="row g-3 needs-validation" novalidate>
+    <!-- form -->
+  <div class="col-md-4">
+    <!-- firstname -->
+    <label for="f_name" class="form-label">First name</label>
+    <input type="text" class="form-control f_name" id="f_name" name="f_name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please enter your fast name
+    </div>
+
+  </div>
+  <div class="col-md-4">
+    <label for="l_name" class="form-label">Last name</label>
+    <input type="text" class="form-control l_name" id="l_name" name="l_name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please enter your last name
+    </div>
+  </div>
+
+  <div class="col-md-12">
+    <label for="email" class="form-label">Email Address</label>
+    <input type="text" class="form-control email" id="email" name="email" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Email Address
+    </div>
+  </div>
+  
+  <div class="col-md-6">
+    <label for="city" class="form-label">City</label>
+    <input type="text" class="form-control city" id="city" required>
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">State</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+/  <div class="col-md-3">
+    <label for="validationCustom05" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationCustom05" required>
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+
+</section>
+
+
+ 
+    
+
+
+
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/script.js"></script>
+ </body>
+
